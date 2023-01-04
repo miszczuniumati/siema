@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz kontaktowy</title>
+    <script src="./kontakt.js" defer></script>
+</head>
+<body>
+
+    <style>
+        #reset{
+            background-color: red;
+        }
+
+        #submit{
+            background-color: green;
+        }
+
+    </style>
+
+    <h3>Formularz kontaktowy</h3>
+
+    <table>
+        <tr>
+            <td>Imię:</td>
+            <td><input type="text" id="imie"></td>
+        </tr>
+        <tr>
+            <td>Nazwisko:</td>
+            <td><input type="text" name="" id="nazw"></td>
+        </tr>
+        <tr>
+            <td>E-mail:</td>
+            <td><input type="text" name="" id="email"></td>
+        </tr>
+        <tr>
+            <td>Usługa:</td>
+            <td>
+                <select name="" id="usluga">
+                    <option value="">naprawa komputera</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="checkbox" name="" id="copy">Wyślij kopię wiadomości</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="reset" value="Resetuj" id="reset">
+                <input type="submit" value="Prześlij" id="submit">
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>
