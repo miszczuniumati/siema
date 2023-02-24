@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="walidacja.css">
+    <title>Walidacja</title>
+</head>
+<body>
+    <form action="" id="form-user">
+        <label for="input-name">nazwisko: </label>
+        <input id="input-name" type="text"> 
+        <span id="error-name"></span> <br>
+        <label for="input-email">email: </label>
+        <input id="input-email" type="email"> <br>
+        <label for="input-postal-code">kod pocztowy</label>
+        <input id="input-postal-code" type="text"><br>
+        <label for="input-address">adres</label>
+        <input id="input-address" type="text"><br>
+        <input type="submit" value="wyslij">
+    </form>
+
+    <h3 id="result"></h3>
+
+
+
+    <script src="walidacja.js" defer></script>
+</body>
+</html>

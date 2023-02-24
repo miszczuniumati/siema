@@ -1,0 +1,39 @@
+body{
+    display: grid;
+    grid-template-columns: auto 30%;
+    grid-template-rows: 100px auto 50px;
+    grid-template-areas:'hd hd'
+                        'main aside'
+                        'ft ft';
+}
+
+header{
+    grid-area: hd;
+    background: gray;
+    color: rgb(255, 255, 255);
+}
+
+main{
+    grid-area: main;
+    background-color: rgba(128, 128, 128, 0.63);
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+aside{
+    grid-area: aside;
+    background-color: rgb(114, 114, 114);
+}
+
+footer{
+    grid-area: ft;
+    background-color: rgb(87, 87, 87);
+    color: whitesmoke;
+}
+
+div{
+    height: 60px;
+    width: 85px;
+    background-color: grey;
+    margin: ;
+}
